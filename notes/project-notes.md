@@ -4,9 +4,16 @@
 
 - 建立靜態網站首頁與基本樣式。
 - 建立 GitHub Pages 部署工作流程。
+- 建立 GitHub 儲存庫並完成公開 GitHub Pages 部署。
+- 網站網址：https://kerwin072.github.io/junior-high-math-teaching-site/
 
 ## 下一步
 
 1. 決定第一個上線單元與目標年級。
 2. 撰寫單元的概念說明、例題與練習。
-3. 推送後在 GitHub Pages 設定中選擇 GitHub Actions 作為部署來源。
+3. 在桌面與手機版檢查第一份教材頁面的可讀性。
+
+## 踩坑筆記
+
+- 私有 GitHub repository 在目前帳號方案無法使用 GitHub Pages；為完成公開教學網站部署，repository 已改為公開。
+- GitHub CLI 推送 Actions workflow 前需具備 `workflow` scope。
